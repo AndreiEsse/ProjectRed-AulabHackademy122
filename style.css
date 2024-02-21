@@ -1,0 +1,204 @@
+:root{
+    --colore-titoli: darkred;
+    --davedere1: #C67F7F;
+    --colore-sfondi: #ececec;
+}
+.logo{
+    width: 110px;
+}
+    .titolo{
+        font-family: 'Nova Square', sans-serif;
+        letter-spacing: 40px;
+        color: darkred;
+        font-size: 60px;
+    }
+.spazio{
+    height: 1000px;
+    background-image: url(./media/switzerland-862870_1920.jpg);
+    background-position: center;
+    background-size:cover;
+    -moz-box-shadow: inset 0px 850px 500px -500px #fff;
+    -webkit-box-shadow: inset 0px 850px 500px -500px #fff;
+    -o-box-shadow: inset 0px 850px 500px -500px #fff;
+    box-shadow: inset 0px 850px 500px -500px #fff;
+}
+.spaziosopra{
+    margin-top: 10px;
+}
+.ppiano{
+    z-index: 2;
+    left: 0px;
+    bottom: 0px;
+}
+.corpo{
+    height: 1000px;
+}
+.testo-icone{
+    /* font-weight: 300; */
+    font-family: 'Rajdhani', sans-serif;
+    color: gray;
+    font-style: oblique;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+.testo-icone::before{
+    content: url(./immagini/quote-left-solid\ \(2\).svg);
+}
+.testo-icone::after{
+    content: url(./immagini/quote-right-solid\ \(1\).svg);
+}
+.titolo-icone{
+    background-color: var(--colore-sfondi);
+}
+.alberirossi{
+    height: 400px;
+    background-image: url(./immagini/other.png);
+    background-size:cover;
+    margin: 0%;
+    padding: 0%;
+}
+.padding-bianco{
+    display: block;
+    text-align: center;
+    width: 12rem;
+    padding: 10px;
+    color: white;
+    border: 3px solid darkred;
+    transition: transform .2s; /* Animation */
+}
+.background-footer{
+    background-color: darkred;}
+    .padding-bianco:hover {
+        transform: scale(1.1);}
+     
+    .scritte{
+        font-family: 'Nova Square', sans-serif;
+        color: darkred;
+    }
+    .scritte1{
+        font-family: 'Rajdhani', sans-serif;
+    }
+    .no-linea-link{
+        text-decoration: none;
+    }
+    ul.timeline {
+        list-style-type: none;
+        position: relative;
+    }
+    ul.timeline:before {
+        content: ' ';
+        background: darkred;
+        display: inline-block;
+        position: absolute;
+        left: 29px;
+        width: 2px;
+        height: 100%;
+        z-index: 400;
+    }
+    ul.timeline > li {
+        margin: 20px 0;
+        padding-left: 20px;
+    }
+    ul.timeline > li:before {
+        content: ' ';
+        background: white;
+        display: inline-block;
+        position: absolute;
+        border-radius: 50%;
+        border: 3px solid darkred;
+        left: 20px;
+        width: 20px;
+        height: 20px;
+        z-index: 400;
+    }
+    .alberigrigi{
+        
+        background-image: url(./immagini/single.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        background-position-y: bottom;
+        margin: 0px;
+        padding: 0px;}
+         
+        .height-timeline{
+            height: 820px;
+        }
+    .button{
+        background-color: darkred;
+        color: white;
+        border: none;
+        justify-content: center;
+        background-position-x: center;
+    }
+    .height-button{
+        height: 500px;
+        
+    }.alberibianchi{
+z-index: 2;
+    }
+    .testo-bottone{
+        font-family: 'Nova Square', sans-serif;
+    }
+    .instagram{
+        content: url(./immagini/instagram\ \(1\).svg);
+        width: 50px;
+        color: darkred;
+    }
+    .twitter{
+        content: url(./immagini/twitter\ \(1\).svg);
+        width: 50px;
+    }
+    .facebook{
+        content: url(./immagini/facebook\ \(1\).svg);
+        width: 50px;
+    }
+    .snowflake{
+        content: url(./immagini/snowflake-regular.svg);
+        width: 70px;
+        height: 70px;
+    }
+    .mountain{
+        content: url(./immagini/mountain-solid.svg);
+        width: 70px;
+        height: 70px;
+    }
+    .map{
+        content: url(./immagini/map-solid.svg);
+        width: 70px;
+        height: 70px;
+    }
+    .campground{
+        content: url(./immagini/campground-solid.svg);
+        width: 70px;
+        height: 70px;
+    }
+    .padding{
+        padding-left: 140px;
+    }
+    .margin-icone{
+        margin-left: 24px;
+    }
+    .bordo{
+        position: relative;
+        border-bottom: 5px solid darkred;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+    }
+    .bordo::before{
+        position:absolute;
+        content: '';
+        bottom: 0;
+        left: 50%;
+        /* transform: translateX(60%); */
+        transform: translateY(60%);
+        width: 20px;
+        height: 20px; 
+        border: 3px solid darkred;
+        border-radius: 50%;
+        background-color: white;
+        z-index: 2;
+    }
+    .padding-bordo{
+        padding-top: 15px;
+    
+    }
